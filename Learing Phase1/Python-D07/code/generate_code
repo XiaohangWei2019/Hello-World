@@ -1,0 +1,13 @@
+import random
+
+def generate_code(code_len = 4):
+    all_chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    code = ''
+    chars_len = len(all_chars)
+    for _ in range(code_len):
+        index = random.randint(0,chars_len-1)
+        code += all_chars[index]
+    print(code)
+
+if __name__ == '__main__':
+    generate_code()
