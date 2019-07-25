@@ -3,3 +3,4 @@ numpy 学习
 L9  科学计算库numpy
 L10 Numpy基础结构
 L11 Numpy矩阵基础
+L12 Numpy常用函数
